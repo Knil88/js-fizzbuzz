@@ -32,6 +32,11 @@ h1{
     padding: 30px 0px;
     margin: 10px;
   }
+
+  #heart{
+    font-size: 60px;
+    
+  }
 .fizz{
     background-color: red;
 }

@@ -1,5 +1,9 @@
 // Esercizio Fizzbuzz (Creiamo una lista di numeri da 1 a 100 con variabili fizz , buzz e fizzbuzz)
 
+// Aggiungiamo del colore al cuore direttamente con js
+
+let heart = document.getElementById("heart").style.color = "red";
+ 
 // creiamo il ciclo for 
 
 
