@@ -4,7 +4,7 @@
 
 
 
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i <= 50; i++) {
   
     const container = document.querySelector(".container");
     
@@ -20,16 +20,21 @@ for (let i = 1; i <= 100; i++) {
     // poniamo la condizione se ci sono numeri divisibili per 3  e 5 li nominiamo fizzbuzz
     
     if(i % 3 === 0 && i % 5 === 0){
-       let fizzBuzz = "Fizzbuzz"
-       fizzBuzz.classList.add("fizzbuzz");
-        element.append(fizzBuzz);
+       let fizzBuzz = "Fizzbuzz";
        
+        element.append(fizzBuzz);
+
+        console.log(fizzBuzz);
+
+        element.classList.add("fizzbuzz");
     }
      // poniamo la condizione se ci sono numeri divisibili per  5 li nominiamo buzz
     else if( i % 5 == 0){
         let buzz = "Buzz";
 
         element.append(buzz);
+
+        element.classList.add("buzz");
 
         console.log(buzz);
     }
@@ -39,10 +44,12 @@ for (let i = 1; i <= 100; i++) {
 
         element.append(fizz);
 
+        element.classList.add("fizz");
+
         console.log(fizz);
         
 
-        console.log("fizz");
+       
 
        
     }
@@ -51,6 +58,8 @@ for (let i = 1; i <= 100; i++) {
         console.log(i);
 
         element.append(i);
+
+        
     }
     
    
