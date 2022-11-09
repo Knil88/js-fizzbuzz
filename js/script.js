@@ -2,9 +2,19 @@
 
 // creiamo il ciclo for 
 
-for (let i = 1; i <= 100; i++) {
-    
 
+
+for (let i = 1; i <= 100; i++) {
+  
+    const container = document.querySelector(".container");
+    
+    const element = document.createElement("div");
+
+    element.append(i);
+
+    element.classList.add("box");
+
+    container.append(element);
 
      
     // poniamo la condizione se ci sono numeri divisibili per 3  e 5 li nominiamo fizzbuzz
