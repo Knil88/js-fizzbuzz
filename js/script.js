@@ -8,7 +8,7 @@ let heart = document.getElementById("heart").style.color = "red";
 
 
 
-for (let i = 1; i <= 50; i++) {
+for (let i = 1; i <= 100; i++) {
   
 // Con il querySelector agganciamo la const con la classe container
 
