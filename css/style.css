@@ -4,19 +4,31 @@
     padding:0;
 }
 
-.container{
-    display: flex;
-    flex-wrap: wrap;
+body{
+    background-color: blueviolet;
+    font-family: sans-serif;
+    color: white;
 }
 
-.box{
-    background-color: blanchedalmond;
+h1{
     text-align: center;
-    width: calc(10% - 10px);
-    margin: 5px;
 }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 86%;
+  }
+
+.box {
+    background-color:black;
+    text-align: center;
+    width: calc(10% - 20px);
+    padding: 30px 0px;
+    margin: 10px;
+  }
 .fizz{
-    background-color: yellow;
+    background-color: red;
 }
 
 .buzz{
@@ -24,5 +36,5 @@
 }
 
 .fizzbuzz{
-    background-color: pink;
+    background-color:firebrick;
 }
